@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andy Sack — Seattle investor, founder &amp; co-founder of Forum3</title>
+<meta name="description" content="Andy Sack has spent 30 years building and investing in Seattle tech — co-founder of Firefly, Founders' Co-op, and Forum3, former Managing Director of Techstars Seattle, seed investor in four unicorns, and co-author of AI First and Agents, Inc.">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="canonical" href="http://asackofseattle.com/">
+<meta property="og:title" content="Andy Sack — Seattle investor, founder &amp; co-founder of Forum3">
+<meta property="og:description" content="30 years of Seattle tech across four waves — internet pioneer, founder, seed investor, and now AI-first. Co-author of AI First and Agents, Inc.">
+<meta property="og:type" content="profile">
+<meta property="og:image" content="assets/andy-sack.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Andy Sack — Seattle investor, founder &amp; co-founder of Forum3">
+<meta name="twitter:description" content="30 years of Seattle tech across four waves — internet pioneer, founder, seed investor, and now AI-first.">
+<meta name="twitter:image" content="assets/andy-sack.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231F5C8B'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='15' font-weight='700' fill='%23FBFAF7' text-anchor='middle'%3EAS%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andy Sack",
+  "jobTitle": "Investor & Co-Founder, Forum3",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Forum3",
+    "url": "https://www.forum3.com/"
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Brown University" },
+    { "@type": "CollegeOrUniversity", "name": "MIT Sloan School of Management" }
+  ],
+  "author": [
+    { "@type": "Book", "name": "AI First: The Playbook for a Future-Proof Business and Brand" },
+    { "@type": "Book", "name": "Agents, Inc." }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Seattle",
+    "addressRegion": "WA",
+    "addressCountry": "US"
+  },
+  "image": "assets/andy-sack.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/andysack/",
+    "https://twitter.com/AndySack",
+    "https://www.forum3.com/"
+  ]
+}
+</script>
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --bg:#FBFAF7;
+  --surface:#FFFFFF;
+  --ink:#17181A;
+  --muted:#5A5C60;
+  --accent:#1F5C8B;
+  --accent-tint:rgba(31,92,139,.08);
+  --accent-soft:rgba(31,92,139,.28);
+  --line:rgba(23,24,26,.14);
+  --line-soft:rgba(23,24,26,.08);
+
+  --serif:Georgia,'Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+
+  --fs-h1:clamp(2.15rem,5.6vw,3.7rem);
+  --fs-h2:clamp(1.6rem,3.2vw,2.25rem);
+  --fs-h3:clamp(1.22rem,2.1vw,1.5rem);
+  --fs-h4:clamp(1.04rem,1.5vw,1.16rem);
+  --fs-h5:1rem;
+  --fs-h6:.92rem;
+  --fs-body:clamp(1rem,.96rem + .25vw,1.075rem);
+  --fs-small:.875rem;
+  --fs-chip:.83rem;
+  --fs-eyebrow:.74rem;
+
+  --gutter:clamp(20px,8vw,120px);
+  --sec-pad:clamp(64px,10vw,124px);
+  --maxw:1080px;
+  --radius:10px;
+}
+
+/* ============ RESET / BASE ============ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:var(--fs-body);
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  padding-bottom:60px; /* keeps the fixed disclaimer strip off the footer */
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--accent);text-decoration:none}
+a:hover,a:focus-visible{text-decoration:underline;text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.16;color:var(--ink)}
+h1{font-size:var(--fs-h1);letter-spacing:-.015em}
+h2{font-size:var(--fs-h2);letter-spacing:-.01em}
+h3{font-size:var(--fs-h3)}
+h4{font-size:var(--fs-h4)}
+p{max-width:62ch}
+small{font-size:var(--fs-small)}
+ul{list-style:none}
+.wrap{max-width:calc(var(--maxw) + 2*var(--gutter));margin-inline:auto;padding-inline:var(--gutter)}
+section{padding-block:var(--sec-pad)}
+.eyebrow{
+  font-family:var(--sans);
+  font-size:var(--fs-eyebrow);
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--accent);
+  font-weight:600;
+  display:block;
+  margin-bottom:.9rem;
+}
+.sec-head{margin-bottom:clamp(2rem,4vw,3rem)}
+.sec-head p{color:var(--muted);margin-top:.75rem}
+.visually-hidden{
+  position:absolute;width:1px;height:1px;overflow:hidden;
+  clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;
+}
+.skip-link{
+  position:absolute;left:-9999px;top:0;background:var(--surface);color:var(--ink);
+  padding:.6rem 1rem;z-index:1000;border:1px solid var(--line)
+}
+.skip-link:focus{left:12px;top:12px}
+
+/* ============ NAV ============ */
+header.site-header{
+  border-bottom:1px solid var(--line-soft);
+  background:var(--bg);
+}
+.nav{
+  display:flex;align-items:baseline;justify-content:space-between;
+  gap:1rem;flex-wrap:wrap;
+  padding-block:clamp(18px,3vw,30px);
+}
+.wordmark{
+  font-family:var(--serif);
+  font-size:1.22rem;
+  color:var(--ink);
+  letter-spacing:.01em;
+}
+.wordmark:hover{text-decoration:none}
+.nav ul{display:flex;gap:clamp(.9rem,3vw,2rem);flex-wrap:wrap}
+.nav ul a{
+  color:var(--muted);font-size:var(--fs-small);letter-spacing:.02em;
+  padding:.35rem 0;display:inline-block;
+}
+.nav ul a:hover,.nav ul a:focus-visible{color:var(--ink);text-decoration:none}
+.nav ul a[aria-current="page"]{color:var(--ink);border-bottom:1.5px solid var(--accent)}
+
+/* ============ HERO ============ */
+.hero{padding-block:clamp(56px,9vw,110px)}
+.hero-grid{
+  display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);
+  gap:clamp(2rem,6vw,5rem);align-items:center;
+}
+.hero h1{margin-bottom:1.4rem;max-width:14ch}
+.hero .intro{color:var(--ink);margin-bottom:1.1rem}
+.hero .intro-sub{color:var(--muted);font-size:var(--fs-small);margin-bottom:2rem;max-width:56ch}
+.hero-portrait{
+  border-radius:var(--radius);
+  border:1px solid var(--line-soft);
+  box-shadow:0 18px 44px -24px rgba(23,24,26,.28);
+  background:var(--surface);
+  display:block;
+  transition:box-shadow .25s ease, transform .25s ease;
+}
+.hero-portrait:hover,.hero-portrait:focus-visible{
+  box-shadow:0 22px 52px -22px rgba(31,92,139,.4);
+}
+html.motion-ok .hero-portrait:hover{transform:translateY(-3px)}
+.hero-portrait img{border-radius:var(--radius)}
+.portrait-cap{
+  display:block;margin-top:.6rem;font-size:var(--fs-eyebrow);
+  letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;
+}
+a.hero-portrait:hover{text-decoration:none}
+
+/* the ONE word-effect: "waves" — wavy accent underline always (static),
+   gentle letter undulation only when html.motion-ok (JS-gated, never under
+   ?static=1 or reduced motion). */
+.word-waves{
+  white-space:nowrap;
+  text-decoration:underline wavy var(--accent-soft);
+  text-decoration-thickness:2px;
+  text-underline-offset:.18em;
+}
+.word-waves span[aria-hidden]{display:inline-block}
+html.motion-ok .word-waves span[aria-hidden]{
+  animation:swell 4.2s ease-in-out infinite;
+}
+html.motion-ok .word-waves span[aria-hidden]:nth-of-type(2){animation-delay:0s}
+html.motion-ok .word-waves span[aria-hidden]:nth-of-type(3){animation-delay:.28s}
+html.motion-ok .word-waves span[aria-hidden]:nth-of-type(4){animation-delay:.56s}
+html.motion-ok .word-waves span[aria-hidden]:nth-of-type(5){animation-delay:.84s}
+html.motion-ok .word-waves span[aria-hidden]:nth-of-type(6){animation-delay:1.12s}
+@keyframes swell{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-.09em)}
+}
+
+.stat-row{
+  display:flex;flex-wrap:wrap;gap:.35rem 0;
+  border-top:1px solid var(--line);
+  margin-top:2.2rem;padding-top:1.1rem;
+}
+.stat-row li{
+  font-size:var(--fs-small);color:var(--muted);
+  padding-right:1rem;margin-right:1rem;
+  border-right:1px solid var(--line-soft);
+}
+.stat-row li:last-child{border-right:0;margin-right:0;padding-right:0}
+.stat-row strong{
+  font-family:var(--serif);font-weight:400;color:var(--ink);
+  font-size:1.06rem;margin-right:.3rem;
+}
+.cta-row{margin-top:2rem;display:flex;gap:1.25rem;align-items:center;flex-wrap:wrap}
+.btn{
+  display:inline-block;background:var(--ink);color:var(--bg);
+  font-size:var(--fs-small);letter-spacing:.03em;
+  padding:.72rem 1.4rem;border-radius:6px;
+  transition:background .2s ease;
+}
+.btn:hover,.btn:focus-visible{background:var(--accent);text-decoration:none;color:#fff}
+.cta-quiet{font-size:var(--fs-small);color:var(--muted)}
+.cta-quiet:hover{color:var(--accent)}
+
+/* ============ FOUR WAVES TIMELINE ============ */
+.waves-section{border-top:1px solid var(--line-soft)}
+.rail{
+  position:relative;height:2px;margin-bottom:-1px;
+  background:linear-gradient(90deg,rgba(31,92,139,.14),rgba(31,92,139,.68));
+  border-radius:1px;
+}
+.rail-dots{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  transform:translateY(-8px);margin-bottom:1.4rem;
+}
+.rail-dots span{
+  width:14px;height:14px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--accent-soft);
+  justify-self:center;transition:border-color .2s ease,background .2s ease;
+}
+.rail-dots span:last-child{background:var(--accent);border-color:var(--accent)}
+.waves{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:clamp(.8rem,1.6vw,1.25rem);
+  list-style:none;
+}
+.wave{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:clamp(1.1rem,2vw,1.5rem);
+  display:flex;flex-direction:column;gap:.9rem;
+  transition:border-color .22s ease,box-shadow .22s ease,transform .22s ease;
+}
+.wave:hover{border-color:var(--accent-soft);box-shadow:0 14px 34px -22px rgba(23,24,26,.3)}
+.wave.is-active{
+  border-color:var(--accent);
+  box-shadow:0 18px 40px -22px rgba(31,92,139,.4);
+}
+html.motion-ok .wave.is-active{transform:translateY(-3px)}
+.wave-head{
+  background:none;border:0;text-align:left;cursor:pointer;
+  font:inherit;color:inherit;padding:0;width:100%;
+  display:flex;flex-direction:column;gap:.3rem;
+}
+.wave-era{
+  font-size:var(--fs-eyebrow);letter-spacing:.16em;text-transform:uppercase;
+  color:var(--accent);font-weight:600;font-family:var(--sans);
+}
+.wave-theme{font-family:var(--serif);font-size:var(--fs-h4);line-height:1.25}
+.wave-ventures{display:flex;flex-direction:column;gap:.45rem}
+.wave-ventures li{
+  font-size:var(--fs-chip);line-height:1.45;color:var(--ink);
+  background:var(--bg);border:1px solid var(--line-soft);
+  border-radius:7px;padding:.42rem .65rem;
+}
+.wave-ventures .tag{color:var(--muted)}
+.wave-ventures a{color:inherit;text-decoration:underline;text-decoration-color:var(--accent-soft);text-underline-offset:2px}
+.wave-ventures a:hover{color:var(--accent);text-decoration-color:var(--accent)}
+.wave-take{
+  margin-top:auto;
+  font-family:var(--serif);font-style:italic;
+  font-size:var(--fs-small);color:var(--muted);
+  border-top:1px solid var(--line-soft);padding-top:.8rem;
+  transition:color .22s ease;
+}
+.wave.is-active .wave-take{color:var(--accent)}
+.waves-caption{
+  margin-top:2rem;font-size:var(--fs-small);color:var(--muted);
+  max-width:60ch;
+}
+
+/* ============ NOW ============ */
+.now-section{background:var(--surface);border-block:1px solid var(--line-soft)}
+.now-grid{
+  display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);
+  gap:clamp(2rem,6vw,4.5rem);align-items:start;
+}
+.now-copy p{margin-bottom:1.1rem}
+.now-copy .tagline{
+  font-family:var(--serif);font-style:italic;font-size:var(--fs-h4);
+  color:var(--accent);margin:1.4rem 0;
+}
+.client-list{margin-top:1.6rem}
+.client-list h4{font-family:var(--sans);font-size:var(--fs-eyebrow);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:.7rem}
+.client-list ul{display:flex;flex-wrap:wrap;gap:.5rem}
+.client-list li{
+  font-size:var(--fs-chip);
+  border:1px solid var(--line);border-radius:999px;
+  background:var(--bg);
+}
+.client-list li a{
+  color:var(--muted);display:inline-block;padding:.3rem .85rem;
+}
+.client-list li a:hover{color:var(--accent);text-decoration:none}
+.books{display:grid;gap:1.1rem}
+.book{
+  display:grid;grid-template-columns:64px minmax(0,1fr);gap:1.1rem;
+  background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.1rem;align-items:center;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.book:hover{border-color:var(--accent-soft);box-shadow:0 12px 30px -22px rgba(23,24,26,.34)}
+.book-link{color:inherit}
+.book-link:hover{text-decoration:none}
+.book-spine{
+  height:92px;border-radius:4px 7px 7px 4px;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-size:.68rem;color:#fff;
+  writing-mode:vertical-rl;letter-spacing:.12em;text-transform:uppercase;
+  box-shadow:inset 3px 0 0 rgba(255,255,255,.22);
+}
+.book-spine.ai-first{background:var(--accent)}
+.book-spine.agents{background:var(--ink)}
+.book h4{margin-bottom:.2rem}
+.book p{font-size:var(--fs-small);color:var(--muted)}
+.book .book-more{font-size:var(--fs-eyebrow);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-top:.35rem;display:inline-block}
+
+/* ============ TRACK RECORD ============ */
+.record-stats{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:clamp(.8rem,1.6vw,1.25rem);margin-bottom:clamp(2.2rem,4vw,3.2rem);
+}
+.record-stats li{
+  background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--radius);padding:1.2rem 1.1rem;
+}
+.record-stats strong{
+  display:block;font-family:var(--serif);font-weight:400;
+  font-size:var(--fs-h2);line-height:1.05;margin-bottom:.35rem;
+}
+.record-stats span{font-size:var(--fs-small);color:var(--muted)}
+.unicorns{
+  border-top:1px solid var(--line);padding-top:2rem;
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);
+  gap:clamp(1.5rem,4vw,3rem);align-items:start;
+}
+.unicorns h3{margin-bottom:.5rem}
+.unicorns .note{font-size:var(--fs-small);color:var(--muted)}
+.unicorn-names{display:flex;flex-wrap:wrap;gap:.6rem 2rem;align-items:baseline}
+.unicorn-names li{
+  font-family:var(--serif);font-size:clamp(1.35rem,2.6vw,1.9rem);
+  letter-spacing:-.01em;
+}
+.unicorn-names li a{
+  color:var(--ink);text-decoration:none;
+  border-bottom:1.5px solid transparent;transition:border-color .2s ease,color .2s ease;
+}
+.unicorn-names li a:hover{color:var(--accent);border-color:var(--accent-soft)}
+.acq-line{
+  margin-top:2.4rem;border-top:1px solid var(--line-soft);padding-top:1.2rem;
+  font-size:var(--fs-small);color:var(--muted);max-width:70ch;
+}
+.acq-line b{font-weight:600;color:var(--ink)}
+.acq-line a{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--accent-soft);text-underline-offset:2px}
+.acq-line a:hover{color:var(--accent);text-decoration-color:var(--accent)}
+.record-more{margin-top:2.4rem}
+.record-more a{font-size:var(--fs-small);font-weight:600}
+
+/* ============ WRITING ============ */
+.writing-list{border-top:1px solid var(--line)}
+.writing-list li{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;
+  gap:.4rem 2rem;align-items:baseline;
+  padding:1.15rem 0;border-bottom:1px solid var(--line-soft);
+}
+.writing-list h3{font-size:var(--fs-h4)}
+.writing-list h3 a{color:var(--ink)}
+.writing-list h3 a:hover{color:var(--accent)}
+.writing-list p{font-size:var(--fs-small);color:var(--muted);margin-top:.25rem}
+.writing-list .meta{font-size:var(--fs-eyebrow);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+
+/* ============ CONTACT / FOOTER ============ */
+.contact{background:var(--surface);border-top:1px solid var(--line-soft)}
+.contact-grid{
+  display:grid;grid-template-columns:120px minmax(0,1fr);
+  gap:clamp(1.5rem,4vw,3rem);align-items:center;
+}
+.contact-photo{border-radius:var(--radius);border:1px solid var(--line-soft);display:block}
+a.contact-photo-link:hover{text-decoration:none}
+.contact h2{margin-bottom:.8rem}
+.contact p{color:var(--muted);margin-bottom:1.4rem}
+.contact-links{display:flex;flex-wrap:wrap;gap:.8rem 1.8rem}
+.contact-links a{font-size:var(--fs-small);padding:.3rem 0;display:inline-block}
+footer.site-footer{padding:2rem 0 3.4rem;border-top:1px solid var(--line-soft)}
+footer.site-footer .wrap{
+  display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;
+  font-size:var(--fs-eyebrow);color:var(--muted);letter-spacing:.06em;
+}
+footer.site-footer a{color:var(--muted)}
+footer.site-footer a:hover{color:var(--accent)}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:2.2rem}
+  .hero-portrait{max-width:420px}
+  .now-grid,.unicorns{grid-template-columns:1fr}
+  .record-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:600px){
+  .rail,.rail-dots{display:none}
+  .waves{grid-template-columns:1fr;position:relative;padding-left:22px}
+  .waves::before{
+    content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;
+    background:linear-gradient(180deg,rgba(31,92,139,.14),rgba(31,92,139,.68));
+    border-radius:1px;
+  }
+  .wave{position:relative}
+  .wave::before{
+    content:"";position:absolute;left:-22px;top:1.4rem;width:12px;height:12px;
+    border-radius:50%;background:var(--bg);border:2px solid var(--accent-soft);
+  }
+  .wave:last-child::before{background:var(--accent);border-color:var(--accent)}
+  .writing-list li{grid-template-columns:1fr}
+  .writing-list .meta{order:-1}
+  .contact-grid{grid-template-columns:1fr}
+  .contact-photo{max-width:120px}
+  .record-stats{grid-template-columns:1fr 1fr;gap:.7rem}
+  .record-stats li{padding:1rem .9rem}
+}
+@media (max-width:360px){
+  .record-stats{grid-template-columns:1fr}
+  .stat-row li{border-right:0;margin-right:0;padding-right:0;width:100%}
+}
+
+/* ============ CONCEPT-DISCLAIMER STRIP (Category B) ============ */
+.disclaimer{
+  position:fixed;bottom:0;left:0;right:0;z-index:998;
+  background:rgba(251,250,247,.96);
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-family:var(--sans);
+  font-size:11.5px;line-height:1.45;
+  padding:8px 16px;
+  text-align:center;
+  -webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);
+}
+.disclaimer a{color:var(--accent);text-decoration:none}
+.disclaimer a:hover{text-decoration:underline}
+@media (min-width:900px){.disclaimer{padding:7px 160px 8px}}
+@media (max-width:640px){body{padding-bottom:96px}}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Primary">
+    <a class="wordmark" href="index.html">Andy Sack</a>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="investing.html">Investing</a></li>
+      <li><a href="writing.html">Writing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <h1 id="hero-title">Four <span class="word-waves"><span class="visually-hidden">waves</span><span aria-hidden="true">w</span><span aria-hidden="true">a</span><span aria-hidden="true">v</span><span aria-hidden="true">e</span><span aria-hidden="true">s</span></span> of Seattle tech. One career.</h1>
+        <p class="intro">I'm Andy Sack. I've spent thirty years starting, funding, and occasionally fumbling technology companies in Seattle — from the early internet through the seed-fund years, and now all-in on AI as co-founder of <a href="https://www.forum3.com/" target="_blank" rel="noopener">Forum3</a> and co-author of <em>AI First</em> and <em>Agents,&nbsp;Inc.</em></p>
+        <p class="intro-sub">I live in Laurelhurst with my wife and two kids, and I still think the best conversations in tech happen over coffee in this city.</p>
+        <ul class="stat-row" aria-label="Career at a glance">
+          <li><strong>30</strong> years in tech</li>
+          <li><strong>4</strong> unicorns seeded</li>
+          <li><strong>90+</strong> startups backed</li>
+          <li><strong>2</strong> books on AI</li>
+        </ul>
+        <div class="cta-row">
+          <a class="btn" href="#work">Read the story ↓</a>
+          <a class="cta-quiet" href="mailto:andysack@gmail.com">or just say hello →</a>
+        </div>
+      </div>
+      <div>
+        <a class="hero-portrait" href="https://www.linkedin.com/in/andysack/" target="_blank" rel="noopener" aria-label="Andy Sack on LinkedIn">
+          <img src="assets/andy-sack.jpg" alt="Andy Sack — curly grey hair, clear-frame glasses, floral shirt, smiling against a white background" width="640" height="640">
+        </a>
+        <span class="portrait-cap" aria-hidden="true">Connect on LinkedIn →</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SIGNATURE VISUAL: 30 YEARS, FOUR WAVES ================= -->
+  <section class="waves-section" id="work" aria-labelledby="waves-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Work · 1990s → today</span>
+        <h2 id="waves-title">30 years, four waves</h2>
+        <p>Every wave of Seattle tech — the early internet, the founder years, the seed-fund decade, and now AI — runs through one career. Tap a wave to follow the thread.</p>
+      </div>
+
+      <div class="rail" aria-hidden="true"></div>
+      <div class="rail-dots" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+      <ol class="waves">
+        <li class="wave" data-wave="1">
+          <button class="wave-head" type="button" aria-pressed="false">
+            <span class="wave-era">Wave 1 · 1990s</span>
+            <span class="wave-theme">Internet pioneer</span>
+          </button>
+          <ul class="wave-ventures">
+            <li>Firefly Network <span class="tag">→ acquired by <a href="https://www.microsoft.com/" target="_blank" rel="noopener">Microsoft</a></span></li>
+            <li>Abuzz <span class="tag">→ acquired by <a href="https://www.nytimes.com/" target="_blank" rel="noopener">The New York Times</a>, 1999</span></li>
+            <li>Kefta <span class="tag">→ acquired by <a href="https://www.acxiom.com/" target="_blank" rel="noopener">Acxiom</a>, 2007</span></li>
+            <li>EIR <span class="tag">· SOFTBANK Venture Capital</span></li>
+          </ul>
+          <p class="wave-take">Internet personalization before the web knew it needed it.</p>
+        </li>
+
+        <li class="wave" data-wave="2">
+          <button class="wave-head" type="button" aria-pressed="false">
+            <span class="wave-era">Wave 2 · 2000s</span>
+            <span class="wave-theme">Seattle founder</span>
+          </button>
+          <ul class="wave-ventures">
+            <li>Judy's Book <span class="tag">· founder &amp; CEO · $10.5M raised</span></li>
+            <li><a href="https://www.lightercapital.com/" target="_blank" rel="noopener">Lighter Capital</a> <span class="tag">· pioneered RevenueLoan</span></li>
+            <li>Revenue-based financing <span class="tag">· lending against revenue, not equity</span></li>
+          </ul>
+          <p class="wave-take">Kept founding — and rethought how startups get funded.</p>
+        </li>
+
+        <li class="wave" data-wave="3">
+          <button class="wave-head" type="button" aria-pressed="false">
+            <span class="wave-era">Wave 3 · 2010s</span>
+            <span class="wave-theme">Seed-stage godfather</span>
+          </button>
+          <ul class="wave-ventures">
+            <li><a href="https://founderscoop.com/" target="_blank" rel="noopener">Founders' Co-op</a> <span class="tag">· co-founder · $25M fund · 90+ startups</span></li>
+            <li><a href="https://www.techstars.com/" target="_blank" rel="noopener">Techstars Seattle</a> <span class="tag">· Managing Director, ~2010–2020</span></li>
+            <li>4 unicorns seeded <span class="tag">· <a href="https://www.remitly.com/" target="_blank" rel="noopener">Remitly</a> · <a href="https://www.outreach.io/" target="_blank" rel="noopener">Outreach</a> · <a href="https://auth0.com/" target="_blank" rel="noopener">Auth0</a></span></li>
+            <li><a href="https://www.microsoft.com/" target="_blank" rel="noopener">Microsoft</a> <span class="tag">· advisor to Satya Nadella, 2015–2021</span></li>
+          </ul>
+          <p class="wave-take">Backed a generation of Seattle startups at day one.</p>
+        </li>
+
+        <li class="wave" data-wave="4">
+          <button class="wave-head" type="button" aria-pressed="false">
+            <span class="wave-era">Wave 4 · 2020s</span>
+            <span class="wave-theme">AI-first</span>
+          </button>
+          <ul class="wave-ventures">
+            <li><a href="https://www.forum3.com/" target="_blank" rel="noopener">Forum3</a> <span class="tag">· co-founder · $10M raised · with Adam Brotman</span></li>
+            <li><a href="https://www.starbucks.com/" target="_blank" rel="noopener">Starbucks</a> Odyssey <span class="tag">· helped build the NFT loyalty program</span></li>
+            <li>Keen Capital <span class="tag">· Managing Partner</span></li>
+            <li>2 books <span class="tag">· <a href="https://store.hbr.org/product/ai-first-the-playbook-for-a-future-proof-business-and-brand/10742" target="_blank" rel="noopener">AI First</a> · <a href="https://agentsincbook.com/" target="_blank" rel="noopener">Agents, Inc.</a></span></li>
+          </ul>
+          <p class="wave-take">All of it points here: helping brands become AI-first.</p>
+        </li>
+      </ol>
+
+      <p class="waves-caption">The through-line: each wave taught the next. Personalization taught platforms, founding taught funding, seed investing taught pattern recognition — and all of it now goes into AI and agents.</p>
+    </div>
+  </section>
+
+  <!-- ================= NOW ================= -->
+  <section class="now-section" id="now" aria-labelledby="now-title">
+    <div class="wrap now-grid">
+      <div class="now-copy">
+        <span class="eyebrow">What I'm doing now</span>
+        <h2 id="now-title">All-in on AI, at Forum3</h2>
+        <p>In 2021 I co-founded <a href="https://www.forum3.com/" target="_blank" rel="noopener">Forum3</a> with Adam Brotman, Starbucks' former Chief Digital Officer. We helped build Starbucks Odyssey, raised $10M, and today Forum3 works as an <strong>embedded AI and agent strategy partner</strong> for consumer brands.</p>
+        <p class="tagline">"Cut through the AI noise."</p>
+        <p>I'm also Managing Partner of Keen Capital, a fund of blockchain-native venture funds, and I host the <em>AI First</em> podcast.</p>
+        <div class="client-list">
+          <h4>Brands we've worked with</h4>
+          <ul>
+            <li><a href="https://www.starbucks.com/" target="_blank" rel="noopener">Starbucks</a></li>
+            <li><a href="https://crumbl.com/" target="_blank" rel="noopener">Crumbl</a></li>
+            <li><a href="https://athleticbrewing.com/" target="_blank" rel="noopener">Athletic Brewing</a></li>
+            <li><a href="https://www.redrobin.com/" target="_blank" rel="noopener">Red Robin</a></li>
+            <li><a href="https://cabionline.com/" target="_blank" rel="noopener">Cabi</a></li>
+            <li><a href="https://smashburger.com/" target="_blank" rel="noopener">Smashburger</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="books" aria-label="Books by Andy Sack">
+        <a class="book-link" href="https://store.hbr.org/product/ai-first-the-playbook-for-a-future-proof-business-and-brand/10742" target="_blank" rel="noopener">
+          <article class="book">
+            <div class="book-spine ai-first" aria-hidden="true">AI First</div>
+            <div>
+              <h4>AI First</h4>
+              <p>The Playbook for a Future-Proof Business and Brand — Harvard Business Review Press. Co-authored with Adam Brotman.</p>
+              <span class="book-more">HBR Press →</span>
+            </div>
+          </article>
+        </a>
+        <a class="book-link" href="https://agentsincbook.com/" target="_blank" rel="noopener">
+          <article class="book">
+            <div class="book-spine agents" aria-hidden="true">Agents, Inc.</div>
+            <div>
+              <h4>Agents, Inc.</h4>
+              <p>On the coming age of AI agents in business. Published January 2025.</p>
+              <span class="book-more">agentsincbook.com →</span>
+            </div>
+          </article>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRACK RECORD ================= -->
+  <section id="investing" aria-labelledby="investing-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Investing</span>
+        <h2 id="investing-title">Track record</h2>
+        <p>Co-founder of <a href="https://founderscoop.com/" target="_blank" rel="noopener">Founders' Co-op</a> (2008), one of Seattle's first seed funds, and Managing Director of <a href="https://www.techstars.com/" target="_blank" rel="noopener">Techstars Seattle</a> for a decade. The 2011 Techstars class was the highest-performing in the program's history.</p>
+      </div>
+
+      <ul class="record-stats">
+        <li><strong>90+</strong><span>startups backed through Founders' Co-op</span></li>
+        <li><strong>$25M</strong><span>largest fund, raised by 2019</span></li>
+        <li><strong>4</strong><span>unicorns seeded</span></li>
+        <li><strong>10</strong><span>years leading Techstars Seattle</span></li>
+      </ul>
+
+      <div class="unicorns">
+        <div>
+          <h3>Seeded at day one</h3>
+          <p class="note">Three of the four unicorns, by name — companies that started as seed checks and Techstars pitches.</p>
+        </div>
+        <ul class="unicorn-names">
+          <li><a href="https://www.remitly.com/" target="_blank" rel="noopener">Remitly</a></li>
+          <li><a href="https://www.outreach.io/" target="_blank" rel="noopener">Outreach</a></li>
+          <li><a href="https://auth0.com/" target="_blank" rel="noopener">Auth0</a></li>
+        </ul>
+      </div>
+
+      <p class="acq-line">Earlier exits as a founder: <b>Firefly Network → <a href="https://www.microsoft.com/" target="_blank" rel="noopener">Microsoft</a></b> · <b>Abuzz → <a href="https://www.nytimes.com/" target="_blank" rel="noopener">The New York Times</a></b> · <b>Kefta → <a href="https://www.acxiom.com/" target="_blank" rel="noopener">Acxiom</a></b>. From 2015 to 2021, advisor to Satya Nadella and Microsoft on product innovation and digital transformation.</p>
+
+      <p class="record-more"><a href="investing.html">See the full track record →</a></p>
+    </div>
+  </section>
+
+  <!-- ================= WRITING ================= -->
+  <section id="writing" aria-labelledby="writing-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Writing &amp; talking</span>
+        <h2 id="writing-title">Writing</h2>
+      </div>
+      <ul class="writing-list">
+        <li>
+          <div>
+            <h3><a href="https://store.hbr.org/product/ai-first-the-playbook-for-a-future-proof-business-and-brand/10742" target="_blank" rel="noopener">AI First: The Playbook for a Future-Proof Business and Brand</a></h3>
+            <p>Co-authored with Adam Brotman. How incumbent brands actually adopt AI.</p>
+          </div>
+          <span class="meta">Book · HBR Press</span>
+        </li>
+        <li>
+          <div>
+            <h3><a href="https://agentsincbook.com/" target="_blank" rel="noopener">Agents, Inc.</a></h3>
+            <p>The follow-up: what happens when AI agents start doing the work.</p>
+          </div>
+          <span class="meta">Book · Jan 2025</span>
+        </li>
+        <li>
+          <div>
+            <h3><a href="https://www.forum3.com/podcast" target="_blank" rel="noopener">AI First — the podcast</a></h3>
+            <p>Conversations about building AI-first businesses and brands.</p>
+          </div>
+          <span class="meta">Podcast</span>
+        </li>
+        <li>
+          <div>
+            <h3><a href="http://asackofseattle.com/" target="_blank" rel="noopener">A Sack of Seattle</a></h3>
+            <p>My long-running blog on startups, investing, and this city. The name is a joke; the archive is not.</p>
+          </div>
+          <span class="meta">Blog</span>
+        </li>
+      </ul>
+      <p class="record-more"><a href="writing.html">More writing &amp; talks →</a></p>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <a class="contact-photo-link" href="https://www.linkedin.com/in/andysack/" target="_blank" rel="noopener" aria-label="Andy Sack on LinkedIn">
+        <img class="contact-photo" src="assets/andy-sack-2.png" alt="Andy Sack" width="120" height="120">
+      </a>
+      <div>
+        <h2 id="contact-title">Say hello</h2>
+        <p>If you're building something in Seattle — especially something with AI — I'd genuinely like to hear about it. I answer my own email.</p>
+        <ul class="contact-links">
+          <li><a href="mailto:andysack@gmail.com">andysack@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/andysack/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/AndySack" target="_blank" rel="noopener">X / @AndySack</a></li>
+          <li><a href="https://www.forum3.com/" target="_blank" rel="noopener">Forum3</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Andy Sack · Seattle, WA</span>
+    <span>BA Brown University · MBA MIT Sloan</span>
+    <span><a href="http://asackofseattle.com/" target="_blank" rel="noopener">asackofseattle.com</a></span>
+  </div>
+</footer>
+
+<!-- ================= CONCEPT-DISCLAIMER STRIP (Category B — right of publicity) ================= -->
+<div class="disclaimer">Unsolicited concept redesign by varv — not affiliated with, endorsed by, or authorized by Andy Sack. See the official site → <a href="http://asackofseattle.com/" target="_blank" rel="noopener">asackofseattle.com</a></div>
+
+<script>
+(function () {
+  'use strict';
+  var staticMode = location.search.indexOf('static') > -1;
+  var reduced = false;
+  try {
+    reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch (e) { reduced = true; }
+
+  /* Motion is a progressive enhancement: only enable the hero word-effect
+     and micro-lifts when neither ?static=1 nor reduced-motion applies.
+     With JS off, html.motion-ok is never added, so the page is fully static. */
+  if (!staticMode && !reduced) {
+    document.documentElement.classList.add('motion-ok');
+  }
+
+  /* Four-waves highlight: pure class toggling, no rAF, no hidden content.
+     All ventures are always in the markup and always visible. */
+  var waves = Array.prototype.slice.call(document.querySelectorAll('.wave'));
+  waves.forEach(function (wave) {
+    var head = wave.querySelector('.wave-head');
+    if (!head) return;
+    head.addEventListener('click', function () {
+      var wasActive = wave.classList.contains('is-active');
+      waves.forEach(function (w) {
+        w.classList.remove('is-active');
+        var h = w.querySelector('.wave-head');
+        if (h) h.setAttribute('aria-pressed', 'false');
+      });
+      if (!wasActive) {
+        wave.classList.add('is-active');
+        head.setAttribute('aria-pressed', 'true');
+      }
+    });
+  });
+})();
+</script>
+
+<!-- ================= varv popup (Category B — first-name-neutral) ================= -->
+<style id="varv-popup-css">
+  #varv-popup{position:fixed;right:20px;bottom:20px;z-index:2147483000;width:340px;max-width:calc(100vw - 32px);box-sizing:border-box;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(14px);color:#14151a;background:rgba(252,252,251,.94);-webkit-backdrop-filter:saturate(1.1) blur(8px);backdrop-filter:saturate(1.1) blur(8px);border:1px solid rgba(20,21,26,.14);border-radius:16px;box-shadow:0 18px 50px -12px rgba(15,16,20,.34),0 2px 8px -2px rgba(15,16,20,.18);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden}
+  #varv-popup.is-open{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0);transition:opacity .5s ease,transform .5s cubic-bezier(.22,.61,.36,1)}
+  #varv-popup.varv-static,#varv-popup.varv-static.is-open{transition:none !important}
+  @media (prefers-reduced-motion:reduce){#varv-popup,#varv-popup.is-open{transition:none !important}}
+  #varv-popup .vp-inner{padding:14px 14px 16px}
+  #varv-popup .vp-media{position:relative;margin:0 0 12px;border-radius:11px;overflow:hidden;background:rgba(20,21,26,.06);aspect-ratio:16/10}
+  #varv-popup .vp-media video{display:block;width:100%;height:100%;object-fit:cover;cursor:pointer;background:#0c0d10}
+  #varv-popup .vp-unmute{position:absolute;left:8px;bottom:8px;display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.01em;color:#fff;background:rgba(12,13,16,.62);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);cursor:pointer;user-select:none;border:0}
+  #varv-popup .vp-unmute[hidden]{display:none}
+  #varv-popup .vp-tag{margin:0 2px 12px;font-size:14px;line-height:1.4;font-weight:560;letter-spacing:-.005em;color:inherit}
+  #varv-popup .vp-ai{display:grid;gap:7px;margin:0 0 11px}
+  #varv-popup .vp-ai a{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;text-align:center;padding:10px 12px;border-radius:10px;font-size:13px;font-weight:600;letter-spacing:-.005em;color:inherit;background:rgba(20,21,26,.035);border:1px solid rgba(20,21,26,.16);transition:background .15s ease,border-color .15s ease,transform .05s ease}
+  #varv-popup .vp-ai a:hover{background:rgba(20,21,26,.075);border-color:rgba(20,21,26,.3)}
+  #varv-popup .vp-ai a:active{transform:translateY(.5px)}
+  #varv-popup.varv-static .vp-ai a{transition:none}
+  #varv-popup .vp-ai .vp-dot{width:7px;height:7px;border-radius:50%;flex:none}
+  #varv-popup .vp-book{display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;text-align:center;padding:12px 14px;border-radius:11px;font-size:14px;font-weight:700;letter-spacing:-.01em;color:#fcfcfb;background:#14151a;border:1px solid #14151a;transition:opacity .15s ease,transform .05s ease}
+  #varv-popup .vp-book:hover{opacity:.9}
+  #varv-popup .vp-book:active{transform:translateY(.5px)}
+  #varv-popup.varv-static .vp-book{transition:none}
+  #varv-popup .vp-close{position:absolute;top:8px;right:8px;z-index:2;width:28px;height:28px;padding:0;display:flex;align-items:center;justify-content:center;border-radius:50%;cursor:pointer;color:#fff;background:rgba(12,13,16,.5);border:0;font-size:15px;line-height:1}
+  #varv-popup .vp-close:hover{background:rgba(12,13,16,.72)}
+  #varv-popup a:focus-visible,#varv-popup button:focus-visible,#varv-popup video:focus-visible{outline:2px solid #4f7cff;outline-offset:2px}
+  @media (prefers-color-scheme:dark){
+    #varv-popup{color:#f2f3f5;background:rgba(24,25,29,.92);border-color:rgba(255,255,255,.14);box-shadow:0 18px 50px -12px rgba(0,0,0,.6),0 2px 8px -2px rgba(0,0,0,.4)}
+    #varv-popup .vp-media{background:rgba(255,255,255,.05)}
+    #varv-popup .vp-ai a{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.18)}
+    #varv-popup .vp-ai a:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.34)}
+    #varv-popup .vp-book{color:#14151a;background:#f2f3f5;border-color:#f2f3f5}
+  }
+  @media (max-width:400px){#varv-popup{right:12px;left:12px;bottom:12px;width:auto}}
+</style>
+<div id="varv-popup" role="dialog" aria-label="A note from varv" aria-live="polite">
+  <button type="button" class="vp-close" aria-label="Dismiss">&times;</button>
+  <div class="vp-inner">
+    <div class="vp-media">
+      <video muted playsinline preload="metadata" poster="assets/popup-poster.svg" aria-label="A short intro from Moksh at varv"></video>
+      <button type="button" class="vp-unmute" aria-label="Unmute video"><span aria-hidden="true">&#128266;</span> Tap for sound</button>
+    </div>
+    <p class="vp-tag">Don&rsquo;t take our word for it &mdash; ask your AI which site wins you business.</p>
+    <div class="vp-ai">
+      <a id="vp-chatgpt" href="#" target="_blank" rel="noopener"><span class="vp-dot" style="background:#10a37f"></span> Ask ChatGPT</a>
+      <a id="vp-claude" href="#" target="_blank" rel="noopener"><span class="vp-dot" style="background:#d97757"></span> Ask Claude</a>
+      <a id="vp-perplexity" href="#" target="_blank" rel="noopener"><span class="vp-dot" style="background:#20b8cd"></span> Ask Perplexity</a>
+    </div>
+    <a class="vp-book" href="https://varv.ai/cal" target="_blank" rel="noopener">Book 15 min &rarr;</a>
+  </div>
+</div>
+<script id="varv-popup-js">
+(function(){
+  "use strict";
+  var el = document.getElementById('varv-popup');
+  if(!el) return;
+  var qStatic = false;
+  try{ qStatic = new URLSearchParams(location.search).get('static') === '1'; }catch(e){}
+  var reduce = false;
+  try{ reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
+  var STATIC = qStatic || reduce;
+  if(STATIC) el.classList.add('varv-static');
+  var KEY = 'varv_popup_dismissed_v4';
+  var TTL = 30 * 24 * 60 * 60 * 1000;
+  function dismissedRecently(){
+    try{ var t = parseInt(localStorage.getItem(KEY), 10); return t && (Date.now() - t) < TTL; }catch(e){ return false; }
+  }
+  if(dismissedRecently()) return;
+  var VARV_PROMPT =
+"I'm Andy Sack — Seattle investor, four-time founder, and co-founder of Forum3. Compare strictly these two websites and nothing else — my current site: http://asackofseattle.com/ — and a redesign an agency built for me, unsolicited, as a working demo: https://angaramoksh-a11y.github.io/andy-sack/. Actually open and read both before you answer.\n\n\
+Step 1 — the comparison. Present it as one table and nothing else yet. Rows: what a founder deciding whether to pitch me sees · what an LP or partner doing quiet diligence sees · what an AI answering a question about me and my track record sees · what staying on my current site costs me over the next 12 months. Be blunt in every cell — no hedging, no praise padding.\n\n\
+Step 2 — stop and make it about me. Do not give a verdict yet. Instead ask me: \"What do you most want this site to do for you over the next 12 months?\" — then, using what you actually saw on my two sites, give me exactly 4 numbered options tailored to me (not generic — each one grounded in my real work: Forum3 and AI-first advisory, my seed-VC track record at Founders' Co-op and Techstars, my two AI books, or my next fund/deal flow). Tell me to reply with the number that fits best. Then wait for my answer.\n\n\
+Step 3 — branch on my pick. Once I reply, continue for the goal I chose: give me a straight verdict on whether my current site serves that specific goal, what the redesign does differently for it, and the two or three highest-leverage things that goal actually needs. A recommendation against my goal, not a checklist.\n\n\
+Step 4 — the close. End by telling me plainly whether a 15-minute call with the team that built the demo is worth my time for the goal I picked, and what they'd concretely help me do. If it's worth it, say so directly.";
+  var q = encodeURIComponent(VARV_PROMPT);
+  var set = function(id, base){ var a = document.getElementById(id); if(a) a.href = base + q; };
+  set('vp-chatgpt', 'https://chatgpt.com/?q=');
+  set('vp-claude', 'https://claude.ai/new?q=');
+  set('vp-perplexity', 'https://www.perplexity.ai/search?q=');
+  var video = el.querySelector('.vp-media video');
+  var unmute = el.querySelector('.vp-unmute');
+  function doUnmute(){
+    if(!video) return;
+    try{ video.muted = false; video.volume = 1; var p = video.play(); if(p && p.catch) p.catch(function(){}); }catch(e){}
+    if(unmute) unmute.hidden = true;
+  }
+  if(video) video.addEventListener('click', doUnmute);
+  if(unmute) unmute.addEventListener('click', function(e){ e.stopPropagation(); doUnmute(); });
+  function focusables(){
+    return Array.prototype.slice.call(el.querySelectorAll('a[href], button:not([hidden]), video, [tabindex]:not([tabindex="-1"])')).filter(function(n){ return n.offsetParent !== null || n === document.activeElement; });
+  }
+  function onKeydown(e){
+    if(e.key === 'Escape'){ close(); return; }
+    if(e.key !== 'Tab') return;
+    var f = focusables(); if(!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if(e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+    else if(!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+  }
+  function onDocClick(e){ if(el.classList.contains('is-open') && !el.contains(e.target)) close(); }
+  var opened = false;
+  function open(){
+    if(opened) return; opened = true;
+    el.classList.add('is-open');
+    if(video && !STATIC){ try{ var pp = video.play(); if(pp && pp.catch) pp.catch(function(){}); }catch(e){} }
+    document.addEventListener('keydown', onKeydown, true);
+    setTimeout(function(){ document.addEventListener('click', onDocClick, true); }, 0);
+    var c = el.querySelector('.vp-close'); if(c) c.focus();
+  }
+  function close(){
+    el.classList.remove('is-open');
+    document.removeEventListener('keydown', onKeydown, true);
+    document.removeEventListener('click', onDocClick, true);
+    try{ localStorage.setItem(KEY, String(Date.now())); }catch(e){}
+  }
+  var closeBtn = el.querySelector('.vp-close');
+  if(closeBtn) closeBtn.addEventListener('click', close);
+  if(STATIC){ open(); } else { setTimeout(open, 10000); }
+})();
+</script>
+
+</body>
+</html>
